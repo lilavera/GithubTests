@@ -1,0 +1,9 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="ParallelSuite">
+    <test name="GithubAPIRequests">
+        <classes>
+            <class name="RepositoryFlowTest" />
+            <class name="GetTheAuthenticatedUserTest"/>
+        </classes>
+    </test>
+</suite>
